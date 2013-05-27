@@ -16,4 +16,5 @@ $urls = array();
 foreach($json->responseData->results as $result) // Loop through the objects in the result
     $urls[] = $result->unescapedUrl;             // and add the URL to the array.
 var_dump($urls);
+die();
 ?>
